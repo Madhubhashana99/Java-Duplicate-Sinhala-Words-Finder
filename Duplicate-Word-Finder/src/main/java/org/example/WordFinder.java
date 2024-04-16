@@ -11,7 +11,7 @@ import java.util.Map;
 public class WordFinder {
     public static void main(String[] args) {
 
-        String filePath = "";
+        String filePath = "E:\\My projects\\Java-Duplicate-Word-Finder\\Duplicate-Word-Finder\\file\\File.xlsx";
 
         try(Workbook workbook = WorkbookFactory.create(new FileInputStream(new File(filePath)))){
             Sheet sheet = workbook.getSheetAt(0);
